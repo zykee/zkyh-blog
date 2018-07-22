@@ -1,0 +1,177 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-family: Lato,"PingFang SC","Microsoft YaHei",sans-serif;
+	background-color: #eee;
+	position: relative;
+	line-height: 2;
+	/*倍数*/
+}
+a{
+	text-decoration: none;
+	color: black;
+}
+.container{
+	width: 75%;
+}
+.header{
+	height: 2px;
+	width: 100%;
+	background-color: black;
+}
+.nav{
+	position: relative;
+	width: 75%;
+	margin: 0 auto;
+}
+.nav ul{
+	position: absolute;
+	top: 0;
+	width: 240px;
+	float: left;
+	border-radius: 1px;
+	box-shadow:2px 2px 3px #aaaaaa;
+	background-color: white;
+}
+.nav ul li{
+	list-style: none;
+	text-align: center;
+	color: black;
+	padding: 5px 30px 5px 30px;
+}
+.nav ul li:hover{
+	background-color: #ccc;
+}
+.nav ul li:first-child{
+	padding: 20px 30px 20px 30px;
+	background-color: black;
+	color: white;
+	margin-bottom: 10px;
+}
+.nav ul li:last-child{
+	margin-bottom: 10px;
+}
+
+/*	:hover,:active{
+	color: red;
+}*/
+.main{
+	position: relative;
+	width: 75%;
+	margin: 0 auto;
+}
+.articles{
+	width: 800px;
+	float: right;
+}
+.article{
+	margin: 20px 0 20px 0;
+	background-color: white;
+	box-shadow:2px 2px 3px #aaaaaa;
+	padding: 20px 40px 20px 40px;
+	border-radius: 1px;
+}
+.article h2{
+	text-align: center;
+}
+.article a{
+	display: block;
+	margin: 0 auto;
+	width: 88px;
+	text-align: center;
+	outline: black solid 3px;
+	padding: 5px 10px 5px 10px;
+}
+.article a:hover{
+	background-color: #ccc;
+}
+
+/*aside*/
+.aside{
+	float: left;
+	width: 240px;
+	margin-top: 330px;
+	background-color: white;
+	box-shadow:2px 2px 3px #aaaaaa;
+	padding: 20px 0 20px 0;
+	/*transition: top 2s ease-in;*/
+}
+.aside > .about{
+	
+}
+.aside > .about img{
+	width: 180px;
+	display: block;
+	margin: 0 auto;
+	outline: 2px solid #ccc;
+}
+.aside > .about h4,p,a{
+	display: block;
+	text-align: center;
+	margin: 0 auto;
+}
+.aside > .about p{
+	font-size: 14px;
+	color: #999;
+}
+.aside > .about a{
+	font-size: 14px;
+	width: 50%;
+	transition: border-bottom 1s ease-in;
+}
+.aside > .about a:hover{
+	border-bottom: 2px solid black;
+}
+.aside-top{
+	position: fixed;
+	top: -320px;
+}
+.contract{
+	padding: 5px;
+	margin: 0 auto;
+	text-align: center;
+}
+.contract a{
+	display: inline-block;
+	text-align: center;
+	font-size: 14px;
+}
+.contract a img{
+	width: 20px;
+	margin-top: -4px;
+	vertical-align: middle;
+}
+.clear{
+	clear: both;
+}
+.footer{
+	position: absolute;
+	bottom: 0px;
+	width: 100%;
+	background-color: #000;
+	height: 100px;
+	left: 0px;
+	margin-bottom: -130px;
+	padding-top: 30px;
+}
+.footer p{
+	text-align: center;
+	color: white;
+}
+.footer p a{
+	color: white;
+	display: inline;
+}
+.totop{
+	position: fixed;
+	bottom: 150px;
+	right: 40px;
+}
+.totop a{
+	display: inline;
+}
+.totop a img{
+	width: 30px;
+}
